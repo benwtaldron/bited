@@ -51,18 +51,19 @@ header {
 
 h1  {
     font-family: Outfit, sans-serif;
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
     color: #F7931A;
     font-style: normal;
+    text-align: left;
     /* font-weight: 500; */
 }
 
 h2  {
     font-family: Outfit, sans-serif;
-    text-align: center;
-    color: #F7931A;
-    text-decoration: underline;
+    text-align: left;
+    color:#4D4D4D;
+    /* text-decoration: underline; */
     
 }
 
@@ -92,6 +93,11 @@ h3  {
      
 }
 
+.aboutsection   {
+    margin: 2rem;
+
+}
+
 .discord {
     /* margin-top: 2rem; */
     display: flex;
@@ -107,7 +113,7 @@ p  {
     /* font: optional; */
     font-family: Outfit, sans-serif;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     display: flex;
     max-width: 500px;
     margin: auto;
@@ -126,20 +132,4 @@ a:hover {
 } */
 
 
-.button2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border-color: #F7931A; */
-    background-color: #4D4D4D;
-    color: white;
-    font-family: Outfit, sans-serif;
-    padding: 10px;
-    border-radius: 10px;
-    border-width: 3px;
-}
 
-.button2:hover  {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
-}
